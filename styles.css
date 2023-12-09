@@ -1,0 +1,26 @@
+:root {
+    --ball-color: #0000ff;
+    --light-color: #ff0000;
+    --sleigh-color: #ff0000;
+    --transform: translate(600px, 600px) rotate(45deg);
+  }
+  
+  #lights path {
+    fill: var(--light-color);
+  }
+  
+  #ornaments circle {
+    fill: var(--ball-color);
+  }
+ 
+  
+  .leg--front {
+    top: 10px;
+    left: 15px;
+  }
+  
+  .leg--back {
+    top: 10px;
+    left: 75px;
+  }
+  

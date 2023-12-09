@@ -1,0 +1,158 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        cursor: none;
+        background-color: #040C26;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .div {
+        height: 400px;
+        width: 766px;
+        border-radius: 18px;
+        border: 2px solid #fff;
+        overflow: auto;
+        resize: both;
+      }
+      .custom-cursor {
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(200, 83, 255);
+        border-radius: 50%;
+        pointer-events: none;
+        left: 50%;
+        top: 50%;
+      }
+    </style>
+  </head>
+  <body style="background-color: #040C26">
+    <div class="custom-cursor"></div>
+    <div style="margin: 200px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="700" viewBox="0 0 500 700">
+      <g id="tree">
+        <path fill="#12471A" d="M277.273 681.439c0 10.739-12.211 19.45-27.274 19.45-15.061 0-27.271-8.711-27.271-19.45V511.007c0-10.742 12.209-19.452 27.271-19.452 15.063 0 27.274 8.71 27.274 19.452v170.432z"/>
+        <path fill="#063" d="M449.071 616.438l-98.489-32.911 12.843 57.124-78.474-29.997L250 649.867l-34.949-39.214-78.47 29.997 12.842-57.125-98.489 32.912 27.794-67.062L0 569.262l250-433.134 250 433.134-78.723-19.885 27.794 67.061z"/>
+        <path fill="#008D36" d="M391.223 471.742l-92.798-49.953L250 481.941l-48.423-60.152-92.798 49.953 31.427-82.622-75.801 18.274L250 100.467l185.595 306.928-75.799-18.274 31.427 82.621z"/>
+        <path fill="#3AAA35" d="M342.893 301.512l-65.951-29.28L250 316.67l-26.939-44.438-65.952 29.28 16.216-38.414-68.639 13.433L250 81.461 395.315 276.53l-68.639-13.433 16.217 38.415z"/>
+      </g>
+    
+      <path id="star" fill="#FFED00" d="M250.003 0l11.244 22.784 25.144 3.653-18.196 17.734 4.295 25.041-22.487-11.824-22.488 11.824 4.295-25.041-18.193-17.734 25.142-3.653z"/>
+    
+      <g id="ornaments">
+        <g>
+          <circle cx="312.469" cy="223.772" r="13.049" fill="#DEDC00"/>
+          <path fill="#FFF" d="M306.764 207.234h11.412v5.708h-11.412z"/>
+        </g>
+        <g>
+          <circle cx="241.244" cy="256.772" r="13.049" fill="#DEDC00"/>
+          <path fill="#FFF" d="M235.539 240.234h11.412v5.708h-11.412z"/>
+        </g>
+        <g>
+          <circle cx="363.424" cy="392.822" r="13.049" fill="#DEDC00"/>
+          <path fill="#FFF" d="M357.719 376.284h11.412v5.708h-11.412z"/>
+        </g>
+        <g>
+          <circle cx="224.657" cy="398.102" r="13.049" fill="#DEDC00"/>
+          <path fill="#FFF" d="M218.952 381.563h11.412v5.708h-11.412z"/>
+        </g>
+        <g>
+          <circle cx="299.42" cy="486.227" r="13.05" fill="#DEDC00"/>
+          <path fill="#FFF" d="M293.715 469.689h11.413v5.707h-11.413z"/>
+        </g>
+        <g>
+          <circle cx="148.231" cy="350.481" r="13.05" fill="#DEDC00"/>
+          <path fill="#FFF" d="M142.527 333.943h11.413v5.708h-11.413z"/>
+        </g>
+        <g>
+          <circle cx="228.194" cy="154.412" r="13.05" fill="#DEDC00"/>
+          <path fill="#FFF" d="M222.489 137.874h11.413v5.708h-11.413z"/>
+        </g>
+        <g>
+          <circle cx="228.194" cy="576.789" r="13.05" fill="#DEDC00"/>
+          <path fill="#FFF" d="M222.489 560.25h11.413v5.709h-11.413z"/>
+        </g>
+        <g>
+          <circle cx="139.429" cy="530.822" r="13.049" fill="#FCEA10"/>
+          <path fill="#FFF" d="M133.724 514.283h11.413v5.709h-11.413z"/>
+        </g>
+      </g>
+    
+      <g id="lights">
+        <g>
+          <path fill="#E70062" d="M289.137 373.006l2.279 14.317 11.734-8.512-8.513 11.733 14.314 2.279-14.314 2.279 8.513 11.732-11.734-8.512-2.279 14.317-2.28-14.317-11.731 8.512 8.513-11.732-14.317-2.279 14.317-2.279-8.513-11.733 11.731 8.512z"/>
+          <circle cx="289.137" cy="392.822" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#E70062" d="M363.425 527.014l2.277 14.316 11.736-8.514-8.514 11.735 14.317 2.277-14.317 2.279 8.514 11.735-11.736-8.514-2.277 14.318-2.278-14.318-11.733 8.514 8.512-11.735-14.318-2.279 14.318-2.277-8.512-11.735 11.733 8.514z"/>
+          <circle cx="363.425" cy="546.828" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#009FE3" d="M308.952 301.787l2.277 14.317 11.735-8.513-8.512 11.734 14.317 2.278-14.317 2.278 8.512 11.735-11.735-8.514-2.277 14.317-2.277-14.317-11.734 8.514 8.512-11.735-14.316-2.278 14.316-2.278-8.512-11.734 11.734 8.513z"/>
+          <circle cx="308.952" cy="321.602" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#009FE3" d="M77.1 488.02l2.277 14.316 11.734-8.512-8.512 11.733 14.317 2.279-14.317 2.277 8.512 11.735-11.734-8.514-2.277 14.318-2.277-14.318-11.734 8.514 8.512-11.735-14.317-2.277 14.317-2.279-8.512-11.733 11.734 8.512z"/>
+          <circle cx="77.1" cy="507.834" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#F39200" d="M191.792 468.203l2.277 14.317 11.734-8.512-8.512 11.732 14.317 2.28-14.317 2.277 8.512 11.734-11.734-8.513-2.277 14.318-2.278-14.318-11.734 8.513 8.512-11.734-14.316-2.277 14.316-2.28-8.512-11.732 11.734 8.512z"/>
+          <circle cx="191.792" cy="488.018" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#F39200" d="M277.273 134.595l2.278 14.317 11.733-8.513-8.513 11.734 14.318 2.279-14.318 2.278 8.513 11.734-11.733-8.513-2.278 14.317-2.278-14.317-11.733 8.513 8.511-11.734-14.316-2.278 14.316-2.279-8.511-11.734 11.733 8.513z"/>
+          <circle cx="277.273" cy="154.411" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#F39200" d="M211.608 291.204l2.278 14.317 11.733-8.513-8.513 11.734 14.318 2.279-14.318 2.278 8.513 11.734-11.733-8.512-2.278 14.316-2.278-14.316-11.733 8.512 8.511-11.734-14.316-2.278 14.316-2.279-8.511-11.734 11.733 8.513z"/>
+          <circle cx="211.608" cy="311.021" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#DEDC00" d="M185.863 203.956l2.278 14.316 11.734-8.513-8.512 11.734 14.317 2.278-14.317 2.279 8.512 11.734-11.734-8.513-2.278 14.316-2.277-14.316-11.734 8.513 8.512-11.734-14.317-2.279 14.317-2.278-8.512-11.734 11.734 8.513z"/>
+          <circle cx="185.863" cy="223.771" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#DEDC00" d="M435.595 491.555l2.277 14.318 11.734-8.514-8.512 11.735 14.317 2.277-14.317 2.279 8.512 11.733-11.734-8.512-2.277 14.317-2.278-14.317-11.733 8.512 8.512-11.733-14.317-2.279 14.317-2.277-8.512-11.735 11.733 8.514z"/>
+          <circle cx="435.595" cy="511.371" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+        <g>
+          <path fill="#009FE3" d="M285.312 533.287l2.276 14.317 11.735-8.513-8.511 11.734 14.316 2.279-14.316 2.277 8.511 11.735-11.735-8.514-2.276 14.317-2.278-14.317-11.733 8.514 8.511-11.735-14.316-2.277 14.316-2.279-8.511-11.734 11.733 8.513z"/>
+          <circle cx="285.312" cy="553.103" r="3.536" fill="#FFF" opacity=".6"/>
+        </g>
+      </g>
+    </svg>
+    <div class="tree-buttons">
+      <input class="light-color" type="color" value="#ff0000"></input>
+      <input class="ball-color" type="color" value="#0000ff"></input>
+      <input class="sleigh-color" type="color" value="#ff0000"></input>
+    </div>
+    <div class="theme-buttons">
+      <input type="button" value="Christmas theme" class="Christmas"></button>
+      <input type="button" value="Digitpaint theme" class="Digitpaint"></button>
+      <input type="button" value ="Random theme" class="Random"></button>
+    </div>
+  </div>
+    <script>
+      // JavaScript to move the curƒsor
+      document.addEventListener("mousemove", function (e) {
+        var cursor = document.querySelector(".custom-cursor");
+        cursor.style.left = e.clientX + "px";
+        cursor.style.top = e.clientY + "px";
+      });
+    </script>
+    <script src="scripts.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+</html>
